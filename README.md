@@ -1,13 +1,52 @@
 # Personal Webpage V1
 
+
 ## Description
-This is a personal website built with **React**. The website showcases my projects and includes a contact feature where users can send messages via email.
+This is a personal website built with **React** and **Django REST** as API email. The website showcases my projects and includes a contact feature where users can send messages via email.
 
 ### Responsive Design
 
 ![Responsive Design](src/assets/responsevi.PNG)
 
 The image above showcases the responsive design of my personal website. It demonstrates how the site adapts seamlessly to different screen sizes, ensuring a consistent user experience across devices.
+
+## Table of Contents
+- [Description](#description)
+    - [Responsive Design](#responsive-design)
+    - [Front View](#front-view)
+        - [Mobile View](#mobile-view)
+        - [Desktop View](#desktop-view)
+    - [Contact Feature Overview](#contact-feature-overview)
+        - [Mobile View](#mobile-view-1)
+        - [Desktop View](#desktop-view-1)
+    - [Project Section](#project-section)
+        - [Desktop View](#desktop-view-2)
+        - [Mobile View](#mobile-view-2)
+    - [Contact Section](#contact-section)
+        - [Desktop View](#desktop-view-3)
+        - [Mobile View](#mobile-view-3)
+    - [Teknik Section](#teknik-section)
+        - [Desktop View](#desktop-view-4)
+        - [Mobile View](#mobile-view-4)
+    - [Footer Section](#footer-section)
+        - [Desktop View](#desktop-view-5)
+        - [Mobile View](#mobile-view-5)
+- [Technical Stack](#technical-stack)
+    - [Install Dependencies](#install-dependencies)
+- [Deployment](#deployment)
+    - [Deployment to Heroku](#deployment-to-heroku)
+    - [Deploying to GitHub](#deploying-to-github)
+- [Improvements](#improvements)
+- [Installed Libraries](#installed-libraries)
+- [Problems with Deployment](#problems-with-deployment)
+- [Bugs](#bugs)
+- [Testing in React](#testing-in-react)
+    - [CSS Jigsaw Validation](#css-jigsaw-validation)
+    - [W3C Validator](#w3c-validator)
+    - [JSHint Validation](#jshint-validation)
+- [Lighthouse Test](#lighthouse-test)
+- [Credit](#credit)
+
 
 ### Front View
 
@@ -128,17 +167,17 @@ The frontend is deployed on **Heroku**.
 3. Initialize a new Git repository:
 
 4. Add your files to the repository:
-    ```bash
-    git add .
-    ```
+        ```bash
+        git add .
+        ```
 5. Commit your changes:
-    ```bash
-    git commit -m "Initial commit"
-    ```
+        ```bash
+        git commit -m "Initial commit"
+        ```
 7. Push your code to GitHub:
-    ```bash
-    git push 
-    ```
+        ```bash
+        git push 
+        ```
 
 
 ## Improvements
@@ -153,17 +192,17 @@ The following libraries are used in this project:
 
 ```json
 {
-    "@testing-library/dom": "^10.4.0",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.2.0",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.7.9",
-    "react": "^19.0.0",
-    "react-bootstrap": "^2.10.9",
-    "react-dom": "^19.0.0",
-    "react-router-dom": "^7.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+        "@testing-library/dom": "^10.4.0",
+        "@testing-library/jest-dom": "^6.6.3",
+        "@testing-library/react": "^16.2.0",
+        "@testing-library/user-event": "^13.5.0",
+        "axios": "^1.7.9",
+        "react": "^19.0.0",
+        "react-bootstrap": "^2.10.9",
+        "react-dom": "^19.0.0",
+        "react-router-dom": "^7.2.0",
+        "react-scripts": "5.0.1",
+        "web-vitals": "^2.1.4"
 }
 ```
 ## Problems with Deployment
