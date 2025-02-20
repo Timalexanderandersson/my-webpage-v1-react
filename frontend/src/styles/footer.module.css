@@ -1,0 +1,19 @@
+.footerdiv {
+    background-color: #23394d;
+    height: 20vh;
+
+
+}
+
+.footericons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.madeWith {
+    color: #afc3d6;
+}

@@ -1,0 +1,64 @@
+.navbardiv {
+    background-color: #23394d;
+    height: auto;
+    margin-top: 2vh;
+    font-weight: 500;
+
+}
+
+.linkContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vh;
+    border-radius: 5px;
+    padding-top: 2vh;
+
+}
+
+.linkWrapper {
+    height: 3vh;
+    margin-bottom: 2vh;
+
+}
+
+.navLink {
+    text-decoration: none;
+    color: #afc3d6;
+
+}
+
+.navLink:hover {
+    color: #ffffff;
+    font-size: 1.01rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.hr {
+    width: 100%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    margin-top: 3vh;
+
+}
+
+/* 
+    Media Query for screens with a minimum width of 768px:
+
+*/
+@media(min-width: 768px) {
+    .navbardiv {
+        height: auto;
+        margin-top: 2vh;
+        font-weight: 500;
+        padding-bottom: 10vh;
+
+    }
+
+    .linkWrapper {
+        height: 3vh;
+        margin-bottom: 2vh;
+
+    }
+
+}

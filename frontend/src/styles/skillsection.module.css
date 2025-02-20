@@ -1,0 +1,527 @@
+.skillsectiondiv {
+    background-color: #23394d;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2vh;
+
+}
+
+.skillcontainer {
+    background-color: #23394d;
+    width: 95%;
+
+
+}
+
+.containsall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.skillcontainer:hover {
+    background-color: #23394d;
+    box-shadow: 1px 2px 4px 4px rgba(160, 160, 160, 0.3);
+    border-radius: 4vh;
+    background-color: #253b4d;
+    transition: all 0.6s ease-in-out;
+    width: 95%;
+
+}
+
+.divfirsttop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.divfirstbottom {
+    width: 100%;
+
+}
+
+.technopart,
+.versionss,
+.database,
+.tools,
+.distrubuuut,
+.testing {
+    color: #afc3d6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+
+
+.deletliststyle {
+    width: 100%;
+    list-style-type: none;
+    text-decoration: underline;
+
+}
+
+.heading {
+    color: #dde4eb;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 100%;
+
+}
+
+.newtesting {
+    color: #dde4eb;
+}
+
+li {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    text-align: center;
+}
+
+.hrstyling {
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.newlistcss {
+    list-style-type: none;
+    text-decoration: underline;
+
+}
+
+.heading1 {
+    font-size: 1.3rem;
+    color: #dde4eb;
+}
+
+.newlistcss {
+    margin-bottom: 2vh;
+}
+
+@media (min-width: 768px) {
+
+    .versionss,
+    .distrubuuut {
+        width: 14vh;
+        text-align: left;
+        margin-left: 3vh;
+        color: #afc3d6;
+       
+    }
+
+    .database,
+    .technopart,
+    .tools {
+        width: 10vh;
+
+        text-align: left;
+        color: #afc3d6;
+    }
+
+    .divfirsttop {
+        display: flex;
+        flex-direction: row;
+        font-size: 1rem;
+        font-weight: 400;
+        width: auto;
+        align-items: flex-start;
+        padding-right: 3vh;
+
+
+
+    }
+
+    .divfirstbottom {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+
+    }
+
+
+    li {
+        width: 100%;
+        font-size: 0.9rem;
+        font-weight: 500;
+        text-align: left;
+
+    }
+
+    .heading {
+        color: #dde4eb;
+        font-size: 1rem;
+        font-weight: 600;
+        width: 19vh;
+        text-align: left;
+    }
+
+
+    .newlistcss {
+        width: 100%;
+
+
+    }
+
+    .heading1 {
+        color: #dde4eb;
+        font-size: 1rem;
+        font-weight: 600;
+        width:20vh;
+
+    }
+    .wochill{
+        color: #afc3d6;
+        font-size: 0.9rem;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+    .latsdiv{
+      
+    }
+
+
+}
+
+@media (min-width: 850px) {
+
+    .versionss,
+    .distrubuuut {
+        width: 14vh;
+        text-align: left;
+        margin-left: 3vh;
+        color: #afc3d6;
+       
+    }
+
+    .database,
+    .technopart,
+    .tools {
+        width: 13vh;
+
+        text-align: left;
+        color: #afc3d6;
+    }
+
+    .divfirsttop {
+        display: flex;
+        flex-direction: row;
+        font-size: 1rem;
+        font-weight: 400;
+        width: auto;
+        align-items: flex-start;
+        padding-right: 3vh;
+
+
+
+    }
+
+    .divfirstbottom {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+
+    }
+
+
+    li {
+        width: 100%;
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: left;
+
+    }
+
+    .heading {
+        color: #dde4eb;
+        font-size: 1.1rem;
+        font-weight: 600;
+        width: 19vh;
+        text-align: left;
+    }
+
+
+    .newlistcss {
+        width: 100%;
+
+
+    }
+
+    .heading1 {
+        color: #dde4eb;
+        font-size: 1.1rem;
+        font-weight: 600;
+        width:20vh;
+
+    }
+    .wochill{
+        color: #afc3d6;
+        font-size: 1rem;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+    .latsdiv{
+      
+    }
+
+
+
+}
+
+@media (min-width: 950px) {
+    .versionss,
+    .distrubuuut {
+        width: 16vh;
+        text-align: left;
+        margin-left: 3vh;
+        color: #afc3d6;
+       
+    }
+
+    .database,
+    .technopart,
+    .tools {
+        width: 15vh;
+        margin-left: 2vh;
+        text-align: left;
+        color: #afc3d6;
+    }
+
+    .divfirsttop {
+        display: flex;
+        flex-direction: row;
+        font-size: 1rem;
+        font-weight: 400;
+        width: auto;
+        align-items: flex-start;
+        padding-right: 3vh;
+
+
+
+    }
+
+    .divfirstbottom {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+
+    }
+
+
+    li {
+        width: 100%;
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: left;
+
+    }
+
+    .heading {
+        color: #dde4eb;
+        font-size: 1.1rem;
+        font-weight: 600;
+        width: 19vh;
+        text-align: left;
+    }
+
+
+    .newlistcss {
+        width: 100%;
+
+
+    }
+
+    .heading1 {
+        color: #dde4eb;
+        font-size: 1.1rem;
+        font-weight: 600;
+        width:20vh;
+
+    }
+    .wochill{
+        color: #afc3d6;
+        font-size: 1rem;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+    .latsdiv{
+      
+    }
+}
+
+@media (min-width: 1100px) {
+    .versionss,
+    .distrubuuut {
+        width: 19vh;
+        text-align: left;
+        margin-left: 4vh;
+        color: #afc3d6;
+       
+    }
+
+    .database,
+    .technopart,
+    .tools {
+        width: 15vh;
+        margin-left: 4vh;
+        text-align: left;
+        color: #afc3d6;
+    }
+
+    .divfirsttop {
+        display: flex;
+        flex-direction: row;
+       
+        font-weight: 400;
+        width: auto;
+        align-items: flex-start;
+        padding-right: 3vh;
+
+
+
+    }
+
+    .divfirstbottom {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+
+    }
+
+
+    li {
+        width: 100%;
+        font-size: 1.1rem;
+        font-weight: 500;
+        text-align: left;
+
+    }
+
+    .heading {
+        color: #dde4eb;
+        font-size: 1.2rem;
+        font-weight: 600;
+        width: 19vh;
+        text-align: left;
+    }
+
+
+    .newlistcss {
+        width: 100%;
+
+
+    }
+
+    .heading1 {
+        color: #dde4eb;
+        font-size: 1.2rem;
+        font-weight: 600;
+        width:20vh;
+
+    }
+    .wochill{
+        color: #afc3d6;
+        font-size: 1.1rem;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+    .latsdiv{
+      
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .versionss,
+    .distrubuuut {
+        width: 22vh;
+        text-align: left;
+        margin-left: 4vh;
+        color: #afc3d6;
+       
+    }
+
+    .database,
+    .technopart,
+    .tools {
+        width: 19vh;
+        margin-left: 4vh;
+        text-align: left;
+        color: #afc3d6;
+    }
+
+    .divfirsttop {
+        display: flex;
+        flex-direction: row;
+        font-weight: 400;
+        width: auto;
+        align-items: flex-start;
+        padding-right: 3vh;
+
+
+
+    }
+
+    .divfirstbottom {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+
+    }
+
+
+    li {
+        width: 100%;
+        font-size: 1.1rem;
+        font-weight: 500;
+        text-align: left;
+
+    }
+
+    .heading {
+        color: #dde4eb;
+        font-size: 1.3rem;
+        font-weight: 600;
+        width: 19vh;
+        text-align: left;
+    }
+
+
+    .newlistcss {
+        width: 100%;
+
+
+    }
+
+    .heading1 {
+        color: #dde4eb;
+        font-size: 1.3rem;
+        font-weight: 600;
+        width:25vh;
+
+    }
+    .wochill{
+        color: #afc3d6;
+        font-size: 1.1rem;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+   
+}

@@ -1,0 +1,96 @@
+.aboutmediv {
+    background-color: #23394d;
+    max-height: 45vh;
+    height: auto;
+    max-width: 100%;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh;
+    text-align: left;
+
+
+}
+
+
+.newdiv {
+    max-width: 90%;
+}
+
+.links {
+    padding-bottom: 2vh;
+    font-size: 1.5rem;
+    height: auto;
+    margin-left: 2vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.githublink {
+    display: flex;
+    justify-content: center;
+    max-width: 4vh;
+    max-height: 4vh;
+    margin-right: 4vh;
+    margin-left: 7vh;
+
+}
+
+.linkedinlink {
+    display: flex;
+    justify-content: center;
+    max-width: 4vh;
+    max-height: 4vh;
+    margin-right: 4vh;
+}
+
+.instagramlink {
+    display: flex;
+    justify-content: center;
+    max-width: 4vh;
+    max-height: 4vh;
+    margin-right: 4vh;
+}
+
+.iconlife {
+    margin-right: 4vh;
+    transition: all 0.2s ease-in-out;
+    color: #afc3d6;
+}
+
+
+.iconlife:hover {
+    color: white;
+}
+
+
+@media(min-width: 768px) {
+    .aboutmediv {
+        height: 34vh;
+
+    }
+
+    .links {
+        padding-top: 3vh;
+        font-size: 1.6rem;
+        margin-left: 2vh;
+
+    }
+
+}
+
+@media(min-width: 850px) {
+    .aboutmediv {
+        height: 33vh;
+        margin-left: 2vh;
+    }
+
+    .links {
+        padding-top: 3vh;
+        font-size: 1.6rem;
+        margin-left: 1vh;
+
+    }
+
+}
