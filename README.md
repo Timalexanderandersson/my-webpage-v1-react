@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Personal Webpage V1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This is a personal website built with **React**. The website showcases my projects and includes a contact feature where users can send messages via email.
 
-## Available Scripts
+### Responsive Design
 
-In the project directory, you can run:
+![Responsive Design](src/assets/responsevi.PNG)
 
-### `npm start`
+The image above showcases the responsive design of my personal website. It demonstrates how the site adapts seamlessly to different screen sizes, ensuring a consistent user experience across devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technical Stack
+- **Frontend**: React, React Router, Axios, Bootstrap
+- **Deployment**: Frontend on Heroku
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Install Dependencies
+#### Frontend:
+```bash
+cd frontend
+npm install
+npm start
+```
 
-### `npm test`
+## Configuration ⚙️
+Make sure to update the frontend configuration as needed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage 
+1. Open the website and check out my projects.
+2. Use the contact form to send a message.
 
-### `npm run build`
+## Deployment 
+The frontend is deployed on **Heroku**.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Frontend**: [Link to live website](https://my-webpage-v1-react-c9cd915b1668.herokuapp.com)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deployment to Heroku
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Preparations
+1. Create an account on [Heroku](https://www.heroku.com/).
+2. Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli).
 
-### `npm run eject`
+### Create a Heroku app manually
+1. Log in to your Heroku account.
+2. Click on "New" and select "Create new app".
+3. Name your app `my-webpage-v1-react` and click "Create app".
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Deploy the code manually
+1. Navigate to the "Deploy" tab in your Heroku app dashboard.
+2. Connect your GitHub repository.
+3. Select the branch you want to deploy and click "Deploy Branch".
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Improvements
+- Add more information
+- Add a blog section
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Installed Libraries 📚
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The following libraries are used in this project:
 
-## Learn More
+### Dependencies 📦
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```json
+{
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.9",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+}
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Credit
+I have taken help from the following resources:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Google Fonts](https://fonts.google.com/selection)
+- [CSS Scroll Behavior](https://www.w3schools.com/cssref/pr_scroll-behavior.php)
+- [Font Awesome Python Icons](https://fontawesome.com/search?q=python&o=r&ic=free)
+- [Intersection Observer API with ReactJS](https://blog.sachinchaurasiya.dev/simple-guide-to-using-intersection-observer-api-with-reactjs?utm_source=chatgpt.com)
+- [Waving Hand Emoji](https://emojipedia.org/waving-hand)
+- [Emoji Favicons](https://favicon.io/emoji-favicons/#google_vignette)
