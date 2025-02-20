@@ -1,6 +1,8 @@
 import React from 'react';
-import styles from '../styles/footer.module.css'
-
+import styles from '../styles/footer.module.css';
+/**
+ * Footer component that displays the copyright information and technologies used.
+ */
 const Footer = () => {
     return (
         <footer className={styles.footerdiv}>

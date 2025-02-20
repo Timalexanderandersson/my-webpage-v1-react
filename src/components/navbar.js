@@ -1,8 +1,14 @@
+
 import React from 'react';
 import styles from '../styles/navbar.module.css'
 import { Link } from 'react-router-dom';
 
-
+/**
+ * Navbar component renders the navigation bar with links to different sections of the webpage.
+ * It includes links to "Om mig", "Projekt", "Skills", "Kontakta mig", and a router link to "Skicka meddelande".
+ * 
+ * 
+ */
 const Navbar = () => {
     return (
         <nav className={styles.navbardiv}>
