@@ -61,6 +61,28 @@
     color: #253b4d;
     border: 1px solid #afc3d6;
 }
+.sendingback1{
+padding: 1vh;
+height: auto;
+
+}
+.sendingback{
+    padding: 1vh;
+   
+}
+.backlink{
+    font-size: 1.3rem;
+    color: #afc3d6;
+    text-decoration: none;
+}
+.backlink:hover{
+    color: #dae2e9;
+    text-decoration: none;
+}
+.gubbenilodan{
+    margin-top: 2vh;
+    font-size: 1.6rem;
+}
 
 @media (min-width: 400px) {
 
@@ -69,6 +91,7 @@
         height: auto;
     }
 }
+
 
 
 @media (min-width: 500px) {
@@ -109,7 +132,7 @@
 @media (min-width: 768px) {
     .emailcontainer {
         margin-top: 15vh;
-        width: 80%;
+        width: 85%;
         height: auto;
     }
 
@@ -121,6 +144,21 @@
     .allinputs {
         width: 70%;
     }
+    .sendingemaildiv {
+   
+        height: auto;
+        
+    }
+    .sendingback1{
+        padding: 2vh;
+        height: 55vh;
+        
+        }
+        .sendingback{
+            padding: 2vh;
+           
+        }
+    
 }
 
 @media (min-width: 1400px) {
@@ -138,5 +176,15 @@
 
     .allinputs {
         width: 70%;
+    }
+    .sendingemaildiv {
+        padding-bottom: 4vh;
+   
+        height: auto;
+        
+    }
+    .gubbenilodan{
+        margin-top: 3vh;
+        font-size: 1.9rem;
     }
 }
