@@ -216,6 +216,17 @@ There are currently no known issues.
 There are no resolved issues at this time.
 ## Testing in React 
 
+## Testing in React
+
+### Contact Page Tests
+
+The following tests have been conducted in the `sendingemail.test.js` file for the contact page:
+
+| Test Description | Status |
+|------------------|--------|
+| Displays submit button in the contact form to ensure users can send messages | ✔️ |
+| Text showing after a message is sent to confirm successful submission | ✔️ |
+
 ## Testing valditations 
 
 ### CSS Jigsaw Validation

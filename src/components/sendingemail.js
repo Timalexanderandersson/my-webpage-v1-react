@@ -14,7 +14,7 @@ const SendingEmail = () => {
         email_here: '',
         description: ''
     });
-    const [submitting, setSubmitting] = useState(true);
+    const [submitting, setSubmitting] = useState(false);
     const { name, email_here, description } = input;
     const [errors, setErrors] = useState({});
 
@@ -35,7 +35,7 @@ const SendingEmail = () => {
         e.preventDefault();
         try {
             await api.post('sendmail/', input);
-            setSubmitting(true);
+           setSubmitting(true);
             setInput('');
 
         } catch (error) {
@@ -62,7 +62,7 @@ const SendingEmail = () => {
                 {submitting ? (
                     <div className={styles.sendingback1}>
                         <div className={styles.sendingback}>
-                            <h1 className='mt-4'> Tack för ditt meddelande, jag hör av mig så fort som möjligt</h1>
+                            <h1 className='mt-4'>Tack för ditt meddelande, jag hör av mig så fort som möjligt</h1>
 
                         </div>
                         <Link className={styles.backlink} to="/">Gå till framsidan</Link>
