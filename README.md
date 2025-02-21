@@ -138,6 +138,9 @@ The frontend is deployed on **Heroku**.
 
 - **Frontend**: [Link to live website](https://my-webpage-v1-react-c9cd915b1668.herokuapp.com)
 
+
+- **Backend**: [Link to GitHub repository](https://github.com/Timalexanderandersson/personal-webpage-v1)
+
 ## Deployment to Heroku
 
 ### Preparations
@@ -283,3 +286,4 @@ I have taken help from the following resources:
 - [Intersection Observer API with ReactJS](https://blog.sachinchaurasiya.dev/simple-guide-to-using-intersection-observer-api-with-reactjs?utm_source=chatgpt.com)
 - [Waving Hand Emoji](https://emojipedia.org/waving-hand)
 - [Emoji Favicons](https://favicon.io/emoji-favicons/#google_vignette)
+- [Brittany Chiang's Website](https://brittanychiang.com/)
